@@ -1,0 +1,27 @@
+.footer-container {
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #f0f0f0;
+  height: 60px;
+}
+
+.footer-container p {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 10px 0;
+}
+
+.footer-icons {
+  width: 25px;
+  height: auto;
+}
